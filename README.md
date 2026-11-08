@@ -3,11 +3,17 @@
 QuPath extension for opening [KFBio](https://www.kfbio.cn) whole slide images directly:
 `.kfb` (brightfield) and `.kfbf` (fluorescence). No conversion step required.
 
-> **Status: untested on real slides.** This was developed without access to any real
-> `.kfb` / `.kfbf` file. It has only been tested against synthetic files written to the
-> layout described below, which shows the code does what it was designed to do, not that
-> the format was understood correctly. Bug reports with real-file failures are the most
-> useful contribution at this stage.
+> **Status: limited testing.** The extension was successfully tested with a limited number of
+> images (both brightfield RGB and fluorescence), which shows the code does what it was designed
+> to do, and that (so far) the format is understood correctly.
+
+Bug reports with real-file failures are most welcome, and the most useful contribution at this stage.
+
+We also have a discussion going over at https://forum.image.sc/t/does-qupath-support-kfb-kfbio-format/40978/9
+
+
+<img width="1538" height="953" alt="image" src="https://github.com/user-attachments/assets/4150fd13-6433-4a65-8dc5-362dd1442801" />
+<img width="1538" height="953" alt="image" src="https://github.com/user-attachments/assets/2ffae664-e2ce-4b39-8979-8cd6285b7733" />
 
 ## Requirements
 
